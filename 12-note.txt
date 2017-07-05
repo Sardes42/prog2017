@@ -1,0 +1,237 @@
+(C:\Users\saren\Anaconda3) C:\Users\saren>python
+Python 3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 11:57:41) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.position()
+(0.00,0.00)
+>>> t.home()
+>>> t.clear()
+>>>
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+>>> t.left(90)
+>>>
+>>> exit()
+(C:\Users\saren\Anaconda3) C:\Users\saren>python
+Python 3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 11:57:41) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.position()
+(0.00,0.00)
+>>> t.home()
+>>> t.clear()
+>>>
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+>>> t.left(90)
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+>>> for x in range(4):
+...
+  File "<stdin>", line 2
+
+    ^
+IndentationError: expected an indented block
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+>>> exit()
+
+(C:\Users\saren\Anaconda3) C:\Users\saren>python
+Python 3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 11:57:41) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.position()
+(0.00,0.00)
+>>>
+>>> t.home()
+>>> t.clear()
+>>>
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+>>> for x in range(4):
+...   t.forward(200)
+...   t.left(90)
+...
+>>> t.home()
+>>> t.clear()
+>>>
+>>> for i  in range(5):
+...   t.forward(200)
+...   t.left(144)
+...
+>>> t.home()
+>>> t.clear()
+>>>
+>>> t.forward(100)
+>>> t.up()
+>>> t.forward(100)
+>>> t.forward(100)
+>>>
+>>>
+>>>
+>>> t.home()
+>>> t.clear()
+>>>
+>>> t.forward(100)
+>>> t.up()
+>>> t.forward(100)
+>>> t.up()
+>>> t.forward(100)
+>>> t.up()
+>>> t.forward(100)
+>>> t.up()
+>>>
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.position()
+(0.00,0.00)
+>>>
+>>> t.home()
+>>> t.clear()
+>>>
+>>> t.forward(100)
+>>> t.up()
+>>> t.forward(100)
+>>> t.up()
+>>> t.forward(100)
+>>> t.up()
+>>>
+>>>
+>>> t.home()
+>>> t.clear()
+>>>
+>>> for x in range(4):
+... t.forward(200)
+  File "<stdin>", line 2
+    t.forward(200)
+    ^
+IndentationError: expected an indented block
+>>> for x in range(4):
+...   t.forward(200)
+...   t.left(90)
+...
+>>> exit()
+
+(C:\Users\saren\Anaconda3) C:\Users\saren>python
+Python 3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 11:57:41) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.position()
+(0.00,0.00)
+>>> t.home()
+>>> t.clear()
+>>>
+>>> for x in range(4):
+...   t.forward(200)
+...   t.left(90)
+...
+>>> t.right(90)
+>>> t.up()
+>>> t.forward(100)
+>>> t.down()
+>>> for x in range(4):
+...   t.forward(200)
+...   t.left(90)
+...
+>>> t.right(90)
+>>> t.up()
+>>> t.forward(100)
+>>> t.down()
+>>>
+>>> for x in range(4):
+...   t.forward(200)
+...   t.left(90)
+...
+>>> t.up()
+>>> t.right(90)
+>>> t.forward(100)
+>>> t.down()
+>>>
+
+
+
+
+
+結局(145)
+import turtle
+t = turtle.Turtle()
+t.position()
+
+t.home()
+t.clear()
+
+for x in range(4):
+   t.forward(200)
+   t.left(90)
+
+t.right(90)
+t.up()
+t.forward(50)
+t.down()
+
+for x in range(4):
+  t.forward(200)
+  t.left(90)
+
+t.right(90)
+t.up()
+t.forward(50)
+t.down()
+
+for x in range(4):
+  t.forward(200)
+  t.left(90)
+
+t.up()
+t.right(90)
+t.forward(50)
+t.down()
+
+for x in range(4):
+  t.forward(200)
+  t.left(90)
+
+
+>>> for x in range(4):
+...   t.forward(200)
+...   t.left(90)
+...
+>>>
+>>>
+
+
+
+
+
