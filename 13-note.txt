@@ -1,0 +1,178 @@
+>>> t.home()
+>>> t.clear()
+>>>
+>>> t.left(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.left(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.left(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.left(90)
+>>>
+>>> t.forward(25)
+>>> t.back(25)
+>>>
+>>> t.home()
+>>> t.clear()
+>>>
+>>> t.left(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.left(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.left(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.left(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.left(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.left(90)
+>>>
+>>> t.up()
+>>>
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.left(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.right(90)
+>>> t.forward(200)
+>>>
+>>> t.up()
+>>> t.forward(25)
+>>> t.down()
+>>>
+>>> t.forward(200)
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>> t.forward(200)
+>>> t.right(90)
+>>> t.forward(200)
+>>>
+>>> t.home
+<bound method TNavigator.home of <turtle.Turtle object at 0x0000027BD241D4E0>>
+>>> t.home()
+>>> t.clear()
+
+def rect(x, y, a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down()
+  for i in range(4):
+    t.forward(a)
+    t.left(-90)
+    
+
+
+t.clear
+rect(0,0,100)
+rect(-120,0,100)
+
+def yline(x, y, a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down()
+  t.forward(a)  
+  
+def func(v):
+  i = v + 3
+  return i
+  
+func(5)
+
+s = 0
+for x in range(1,101):
+  s += x
+
+s
+
+def total(n):
+  s = 0
+  for x in range(1,n + 1):
+    s += x
+  returns
+  
+total(100)
+
+circle(x,y,r):
+  t.up()
+  t.home
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.forward(r)
+  t.left(90)
+  t.down()
+  t.circle(r)
+
+t.clear()
+circle(0,100,50)
+circle(0,0,50)
+circle(100,100,50)
+circle(199,0,50)
+
+
